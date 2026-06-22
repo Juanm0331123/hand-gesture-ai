@@ -1,0 +1,121 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+
+# =========================
+# Virtual environments
+# =========================
+venv/
+.venv/
+env/
+ENV/
+
+# =========================
+# Environment variables
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# IDE / editors
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =========================
+# Project datasets
+# =========================
+data/raw/
+data/train/
+data/validation/
+data/val/
+data/test/
+data/processed/
+
+# Keep empty data folders if needed
+!data/.gitkeep
+!data/raw/.gitkeep
+!data/train/.gitkeep
+!data/validation/.gitkeep
+!data/val/.gitkeep
+!data/test/.gitkeep
+!data/processed/.gitkeep
+
+# =========================
+# Trained models / weights
+# =========================
+models/
+*.keras
+*.h5
+*.hdf5
+*.pkl
+*.joblib
+*.onnx
+*.tflite
+*.pb
+
+# Keep models folder if needed
+!models/.gitkeep
+
+# =========================
+# Logs
+# =========================
+logs/
+*.log
+tensorboard/
+runs/
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Temporary files
+# =========================
+tmp/
+temp/
+.cache/
+*.tmp
+*.bak
+
+# =========================
+# Kaggle
+# =========================
+kaggle.json
+.kaggle/
+
+# =========================
+# Large media files
+# =========================
+*.zip
+*.rar
+*.7z
+*.tar
+*.tar.gz
+
+# =========================
+# Images and videos generated/captured locally
+# =========================
+captures/
+screenshots/
+recordings/
+*.mp4
+*.avi
+*.mov
+*.mkv
